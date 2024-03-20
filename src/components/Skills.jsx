@@ -8,7 +8,7 @@ import Kotlin from '../assets/Kotlin logo 250.png';
 import GitHub from '../assets/github.png';
 import Python from '../assets/Python 250.png';
 import Java from "../assets/Java icon 250.png"
-
+// bg-[#0a192f]
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>

@@ -17,16 +17,16 @@ const Home = () => {
   }, []);
 
   return (
-    <div name='home' className='w-full h-screen bg-[#3396cfb0]'>
+    <div name='home' className='w-full h-screen bg-[#0a192f]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         {/* Real-time Clock Display */}
-        <div className='text-black mb-5 '>
+        <div className=' text-[#5378d8] mb-5 '>
           Current Time: {currentTime} CST
         </div>
 
-        <p className='text-md'>Hello, My name is</p>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#435fa8]'>
+        <p className='text-md text-[#ceb373]'>Hello, My name is</p>
+        <h1 className='text-4xl sm:text-7xl font-bold text-[#ffffff]'>
           Onik Sisodiya
         </h1>
         <h2 className='text-4xl sm:text-6xl  text-[#666a77]'>
