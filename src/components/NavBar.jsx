@@ -4,12 +4,14 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
+  FaGitlab,
   FaFacebook,
-  FaLinkedinIn,
-} from 'react-icons/fa';
+} 
+from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
+import Resume from '../assets/resume/Onik Sisodiya resume.pdf'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -83,7 +85,7 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -94,29 +96,45 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Social icons */}
+      {/* Social Media icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/oniksisodiya7/'
             >
               Linkedin <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://www.facebook.com/onik.sisodiya/'
+            >
+              Facebook <FaFacebook size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/oniksisodiya'
             >
               Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://git.unl.edu/users/osisodiya2/projects'
+            >
+              Gitlab <FaGitlab size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href="mailto:oniksisodiya7@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -124,7 +142,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href={Resume}
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
