@@ -1,20 +1,66 @@
-import React from 'react'
+import React from "react";
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
-        <form method='POST' action="https://getform.io/f/lakmgdwa" className='flex flex-col max-w-[600px] w-full'>
-            <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
-                <p className='text-gray-300 py-4'> Submit the form below or shoot me an email at - oniksisodiya7@gmail.com</p>
-            </div>
-            <input className='bg-[#ccd6f6] p-2' type="text" placeholder='Name' name='name' />
-            <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' />
-            <textarea className='bg-[#ccd6f6] p-2' name="message" rows="10" placeholder='Message'></textarea>
-            <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
-        </form>
-    </div>
-  )
-}
+    <section
+      name="contact"
+      className="flex h-screen w-full items-center justify-center bg-[#2E2E2E] p-4"
+    >
+      <form
+        method="POST"
+        action="https://getform.io/f/lakmgdwa"
+        className="flex w-full max-w-[600px] flex-col"
+      >
+        <div className="pb-8">
+          <h2 className="inline border-b-4 border-[#B89B7D] text-4xl font-bold text-[#F0E8D9]">
+            Contact
+          </h2>
+          <p className="py-4 text-[#F0E8D9]">
+            Submit the form below or shoot me an email - oniksisodiya7@gmail.com
+          </p>
+        </div>
+        <label htmlFor="name" className="sr-only">
+          Name
+        </label>
+        <input
+          className="bg-[#F0E8D9] p-2 text-[#000000]"
+          type="text"
+          placeholder="Name"
+          name="name"
+          id="name"
+        />
 
-export default Contact
+        <label htmlFor="email" className="sr-only">
+          Email
+        </label>
+        <input
+          className="my-4 bg-[#F0E8D9] p-2 text-[#000000]"
+          type="email"
+          placeholder="Email"
+          name="email"
+          id="email"
+        />
+
+        <label htmlFor="message" className="sr-only">
+          Message
+        </label>
+        <textarea
+          className="bg-[#F0E8D9] p-2 text-[#000000]"
+          name="message"
+          id="message"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+
+        <button
+          type="submit"
+          className="group mx-auto my-8 flex items-center border-2 border-[#B89B7D] px-4 py-3 text-[#B89B7D] hover:border-[#D3C1A5] hover:bg-[#D3C1A5] hover:text-[#2E2E2E]"
+        >
+          Let's Collaborate 🤝
+        </button>
+      </form>
+    </section>
+  );
+};
+
+export default Contact;
