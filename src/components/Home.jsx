@@ -18,7 +18,7 @@ const Home = () => {
     <main name='home' className='w-full h-screen bg-[#2E2E2E]'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <header className='text-[#B89B7D] mb-5'>
-          <p>Current Time: {currentTime} CST</p>
+          <p>Current Time: {currentTime} </p>
         </header>
         <section>
           <p className='text-md text-[#CDBA96]'>Hello, My name is</p>
