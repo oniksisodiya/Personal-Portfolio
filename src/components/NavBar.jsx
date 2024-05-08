@@ -16,8 +16,8 @@ import DarkModeToggle from './DarkModeToggle';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
-  const [_work, setWork] = useState(false);
-  const hiddenWorkBtn = () => setWork(!_work)
+ // const [_work, setWork] = useState(false);
+ // const hiddenWorkBtn = () => setWork(!_work)
 // lines animation       className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[length:200%_200%] bg-gradient-to-r from-lightGradient to-lightGradient dark:bg-gradient-to-r dark:from-darkGradient dark:to-darkGradient animate-movingBg text-lightText dark:text-darkText shadow-lg">
 
   return (
