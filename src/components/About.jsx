@@ -2,11 +2,14 @@ import React from 'react';
 
 const About = () => {
   return (
-   <section name='about' className='w-full h-screen bg-[#2E2E2E] text-[#F0E8D9]'>
+    <section
+      name='about'
+      className='w-full h-screen bg-lightBg dark:bg-darkBg text-lightText dark:text-darkText'
+    >
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
-            <p className='text-4xl font-bold inline border-b-4 border-[#B89B7D]'>
+            <p className='text-4xl font-bold inline border-b-4 border-secondary dark:border-primary'>
               About
             </p>
           </div>
@@ -27,7 +30,6 @@ const About = () => {
 };
 
 export default About;
-
 
 /*
 import React from 'react';
