@@ -10,18 +10,19 @@ const Home = () => {
     }, 1000);
     return () => clearInterval(timer);
   }, []);
+//   smoothest animation for light mode className="w-full h-screen bg-[length:200%_200%] bg-gradient-to-r from-[#ff9a9e] via-[#fad0c4] to-[#fbc2eb] dark:bg-gradient-to-r dark:from-darkGradient dark:via-[#2D3748] dark:to-[#4A5568] animate-movingBg text-lightText dark:text-darkText"
+// amother smoothest animation for light mode className="w-full h-screen bg-[length:200%_200%] bg-gradient-to-r from-[#ffe4e1] via-[#add8e6] to-[#e6e6fa] dark:bg-gradient-to-r dark:from-darkGradient dark:via-[#2D3748] dark:to-[#4A5568] animate-movingBg text-lightText dark:text-darkText"
+// lines animation       className="w-full h-screen bg-[length:200%_200%] bg-gradient-to-r from-lightGradient to-lightGradient dark:bg-gradient-to-r dark:from-darkGradient dark:to-darkGradient animate-movingBg text-lightText dark:text-darkText"
 
   return (
     <main
       name="home"
-      className="w-full h-screen bg-lightBg dark:bg-darkBg text-lightText dark:text-darkText"
-    >
+      className="w-full h-screen bg-[length:200%_200%] bg-gradient-to-r from-[#ffe4e1] via-[#add8e6] to-[#e6e6fa] dark:bg-gradient-to-r dark:from-[#1A202C] dark:via-[#2D3748] dark:to-[#4A5568] animate-movingBg text-lightText dark:text-darkText">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <header className="flex justify-between items-center mb-5">
           <p>Current Time: {currentTime}</p>
         </header>
         <section>
-          <p className="text-md text-secondary dark:text-primary">Hello, my name is</p>
           <h1 className="text-4xl sm:text-7xl font-bold">Onik Sisodiya</h1>
           <h2 className="text-4xl sm:text-6xl">An aspiring Software Engineer.</h2>
         </section>

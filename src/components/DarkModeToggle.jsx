@@ -14,7 +14,7 @@ const DarkModeSwitch = () => {
       localStorage.setItem("theme", "light");
     }
   }, [darkMode]);
-
+// 🌑 moon
   const toggleTheme = () => setDarkMode((prev) => !prev);
 
   return (
@@ -42,7 +42,8 @@ const DarkModeSwitch = () => {
             darkMode ? "opacity-100 rotate-180 translate-y-0" : "opacity-0 translate-y-full"
           }`}
         >
-          🌑
+          🌙
+
         </div>
       </div>
     </label>

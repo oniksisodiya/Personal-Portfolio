@@ -16,11 +16,15 @@ import DarkModeToggle from './DarkModeToggle';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  const [_work, setWork] = useState(false);
+  const hiddenWorkBtn = () => setWork(!_work)
+// lines animation       className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[length:200%_200%] bg-gradient-to-r from-lightGradient to-lightGradient dark:bg-gradient-to-r dark:from-darkGradient dark:to-darkGradient animate-movingBg text-lightText dark:text-darkText shadow-lg">
 
   return (
     <div
-      className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-lightBg dark:bg-darkBg text-lightText dark:text-darkText'
+    className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[length:200%_200%] bg-gradient-to-r from-[#ffe4e1] via-[#add8e6] to-[#e6e6fa] dark:bg-gradient-to-r dark:from-[#1A202C] dark:via-[#2D3748] dark:to-[#4A5568] animate-movingBg text-lightText dark:text-darkText shadow-lg"
     >
+      
       {/* Logo */}
       <div>
         <h1 className='text-5xl font-signature ml-2'>OS</h1>

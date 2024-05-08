@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       name='about'
-      className='w-full h-screen bg-lightBg dark:bg-darkBg text-lightText dark:text-darkText'
+      className="w-full h-screen bg-[length:200%_200%] bg-gradient-to-r from-[#ffe4e1] via-[#add8e6] to-[#e6e6fa] dark:bg-gradient-to-r dark:from-[#1A202C] dark:via-[#2D3748] dark:to-[#4A5568] animate-movingBg text-lightText dark:text-darkText flex flex-col justify-center items-center"
     >
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
