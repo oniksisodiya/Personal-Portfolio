@@ -2,6 +2,8 @@
 import SportsMart from '../assets/projects/SportsMart.png'
 import BurnPlan from '../assets/projects/USDA_NRCS.png'
 import Wireframe from '../assets/projects/wireframe.png'
+import Pitivi from '../assets/projects/pitivi2.png'
+
 export const data=[
     {
         id:1,
@@ -22,7 +24,13 @@ export const data=[
         image:BurnPlan,
         github:"https://git.unl.edu/osisodiya2/prescribed-burn-plan-evaluator",
      
+    },
+    {
+        id:4,
+        name:"Pitivi - Video Editor",
+        image:Pitivi,
+        github:"https://git.unl.edu/osisodiya2/prescribed-burn-plan-evaluator",
+     
     }
-
 
 ]

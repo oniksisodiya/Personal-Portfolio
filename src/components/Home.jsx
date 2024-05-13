@@ -30,7 +30,7 @@ const Home = () => {
         <div className="mt-6">
           <Link to="work" smooth={true} duration={500}>
             <button
-              className="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group"
+              className=" overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group"
             >
               Hover me!
               <span

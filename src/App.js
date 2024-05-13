@@ -4,7 +4,9 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
-import Chatbot from './components/Chatbot';
+import Chatbot from './components/Chatbot'; // Adjust the path as needed
+import ImageGallery from './components/ImageGallery';
+
 
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
      <Skills/>
      <Work/>
      <Contact/>
+     <ImageGallery/>
      <Chatbot />
     </div>
   );

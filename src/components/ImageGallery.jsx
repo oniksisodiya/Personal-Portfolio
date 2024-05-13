@@ -11,19 +11,13 @@ const About = () => {
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
             <p className='text-4xl font-bold inline border-b-4 border-secondary dark:border-primary'>
-              About
+              Image Gallery
             </p>
           </div>
         </div>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-          <div className='sm:text-right text-4xl font-bold'>
             <img class="h-auto object-contain rounded-lg " src={Personal} alt="Profile Pic"></img>
-          </div>
-          <div className=' sm:text-1xl text-2xl '>
-            <p>
-              As a Software Engineering student at the University of Nebraska-Lincoln, I've earned a Global Excellence Scholarship and consistently made the Dean's List. My professional journey includes roles as a Software Developer Intern at Nightfox Audio Inc., an IT Assistant at ITS Huskertech, and a Teaching Assistant at UNL. I'm driven by the challenge of solving complex problems with innovative technology solutions.
-            </p>  
-          </div>
+            <img class="h-auto object-contain rounded-lg " src={Personal} alt="Profile Pic"></img>
         </div>
       </div>
     </section>

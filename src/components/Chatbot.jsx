@@ -5,6 +5,8 @@ const faqResponses = {
   'hello': 'Hello! How can I assist you today?',
   'portfolio': 'This is my portfolio showcasing my skills and projects.',
   'contact': 'You can reach out to me via the contact form on this page!',
+  'email': 'My email is oniksisodiya7@gmail.com',
+
 };
 
 const Chatbot = () => {
