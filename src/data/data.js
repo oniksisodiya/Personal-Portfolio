@@ -29,7 +29,7 @@ export const data=[
         id:4,
         name:"Pitivi - Video Editor",
         image:Pitivi,
-        github:"https://git.unl.edu/osisodiya2/prescribed-burn-plan-evaluator",
+        github:"https://gitlab.gnome.org/",
      
     }
 
